@@ -4,6 +4,7 @@
       "_id": "63349086a02270e076e295e7",
       "picture": "https://schoolinka.com/wp-content/uploads/2019/12/javascript-1024x576.jpg",
       "name": "JavaScript",
+      "price": "$30",
       "description": "What fun would a web site be if there was no functionality to it? In this module, we are going to concentrate on learning the fundamentals of the Javascript language. A lot of even seasoned developers “tinker” with Javascript without really understanding how the language works. That leads to viewing the language as more of a nuisance instead of a powerful tool. That is why we are going to concentrate not only on the “how” but also on the “why”, so you are empowered by the Javascript language features, not confused by them. We’ll cover just about everything - from common language constructs and Javascript types to objects, functions, arrays, closures, and scope isolation.\r\n",
       "lessons" : ["Adjusting Development Environment for Javascript Development","Defining Variables, Function, and Scope","Functions Explained","Passing Variables by Value vs. by Reference","Arrays"]
     },
@@ -11,6 +12,7 @@
       "_id": "6334908609fa8c3666849461",
       "picture": "https://disenowebakus.net/en/images/articles/html5-new-tags-effects-behaviors.jpg",
       "name": "HTML5",
+      "price": "$25",
       "description": "In this course we will learn the basics of HTML5. We'll start with instructional videos on how to set up your development environment, go over HTML5 basics like valid document structure, which elements can be included inside other elements and which can not, discuss the meaning and usefulness of HTML5 semantic tags, and go over essential HTML5 tags.\r\n",
       "lessons" : ["Introduction to HTML5","Basic HTML Document Structure","HTML Content Models","HTML Character Entity References","Displaying Images"]
     },
@@ -18,6 +20,7 @@
       "_id": "63349086e177b741ba0f9971",
       "picture": "https://colorlib.com/cdn-cgi/image/width=1400,height=802,fit=crop,quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/sites/2/creative-css3-tutorials.jpg",
       "name": "CSS3",
+      "price": "$27",
       "description": "A lot of people tinker with CSS. In this course, we'll take you from the very basics of CSS3 to some fairly advanced concepts like floating and CSS rule conflict resolution. We'll go over the 'box model', background property, etc. We'll finish off the module with learning about Responsive Design using our own CSS code as well as start introducing Twitter Bootstrap with its essential Grid System.\r\n",
       "lessons" : [" Introduction to CSS3","Element, Class, and ID Selectors","Pseudo-Class Selectors","The Box Model","Media Queries","Responsive Design","Media Queries"]
     },
@@ -25,6 +28,7 @@
       "_id": "6334908681aa2d6b2fc89721",
       "picture": "https://newscopia.in/wp-content/uploads/2022/05/React-JS.png",
       "name": "ReactJs",
+      "price": "$45",
       "description": "This course explores Javascript based front-end application development, and in particular the React library (Currently Ver. 16.3). This course will use JavaScript ES6 for developing React application. You will also get an introduction to the use of Reactstrap for Bootstrap 4-based responsive UI design. You will be introduced to various aspects of React components. You will learn about React router and its use in developing single-page applications. You will also learn about designing controlled forms. You will be introduced to the Flux architecture and Redux. You will explore various aspects of Redux and use it to develop React-Redux powered applications. You will then learn to use Fetch for client-server communication and the use of REST API on the server side. A quick tour through React animation support and testing rounds off the course. You must have preferably completed the previous course in the specialization on Bootstrap 4, or have a working knowledge of Bootstrap 4 to be able to navigate this course. Also a good working knowledge of JavaScript, especially ES 5 is strongly recommended.\r\n",
       "lessons" : ["Introduction to React","React Router and Single Page Applications","React Forms, Flow Architecture and Introduction to Redux","More Redux and Client-Server Communication"]
     },
@@ -32,6 +36,7 @@
       "_id": "63349086e425648a8a53ca64",
       "picture": "https://miro.medium.com/max/1100/1*mtsk3fQ_BRemFidhkel3dA.png",
       "name": "Git & Github",
+      "price": "$30",
       "description": "Application developers rarely work alone. Large web/cloud/mobile development and data science projects will include many people – front-end developers, back-end developers, database administrators, repository administrators, and others. Every change by every contributor must be tracked and controlled to enable collaboration, accountability and version management. This type of distributed version control is extremely important when managing both small and large software projects. In this module you will learn about some of the popular version control tools, create a GitHub account and use the GitHub web interface to create a repository, add a file to it and commit your changes.\r\n",
       "lessons" : ["Git and GitHub Fundamentals","Using Git Commands and Managing GitHub Projects","Final Project"]
     },
@@ -39,6 +44,7 @@
       "_id": "63349086b9d445eaf4f36e05",
       "picture": "https://blog.getbootstrap.com/assets/img/2022/09/examples.png",
       "name": "Bootstrap",
+      "price": "$20",
       "description": "In this Guided Project, you will: gain an understanding of what Bootstrap is and the different features bootstrap has,use Bootstrap features on Visual Studio Code to create a website,learners will examine the built-in media query and why media query is important when building sites. \r\n",
       "lessons" : ["Introduction","Grids using Bootstrap","Images using Bootstrap","Tables using Bootstrap","Navigation bar using Bootstrap","Media Query using Bootstrap"]
     },
@@ -48,6 +54,7 @@
       "_id": "63349086cb178216862d1df9",
       "picture": "https://web-static.wrike.com/cdn-cgi/image/width=1551,format=auto,q=80/blog/content/uploads/2019/05/Application-Programming-Interface-API-Explained-1.jpg?av=8d387ac3ad145fbd322ff0d641cd1124",
       "name": "API",
+      "price": "$40",
       "description": "We use APIs everyday - when we check the news, when we log into online service - because APIs are used by many companies as a way to interact with their product or service. Being able understand and send API requests is helpful in many roles across the business - including product, marketing and data. If you work alongside or interact with APIs in your job, or you want to use APIs in your tech or data projects, this course is a great introduction to interacting with APIs without writing could (using a program called Postman). By the end of this project, you will understand what APIs are and what they are used for. You will have interacted with a number of APIs, and recognize the different parts which make up an API. You will feel comfortable reading API documentation and writing your own requests.\r\n",
       "lessons" : ["Send your first API request","Send an API request by understanding the documentation","Send an API request with additional information","Send an API with authentication","Send a complex API by combining the skills learnt"]
     },
@@ -55,6 +62,7 @@
       "_id": "633490868fcea1ea9077cd24",
       "picture": "https://laravelnews.imgix.net/images/tailwindcss.png?dpr=2&ixlib=php-3.3.1",
       "name": "Tailwind",
+      "price": "$20",
       "description": "This is a fun project-based course to learn how to create awesome layouts using the Tailwind CSS framework and get comfortable using utility classes over something like Bootstrap, which uses component-based classes. Let's take a look at the outline for this course\r\n",
       "lessons" : ["Tailwind Fundamentals","Learn to create and edit layouts super fast","Learn the Tailwind utility classes using a code sandbox","Theme Changing","Responsive Design"]
     },
@@ -64,6 +72,7 @@
       "_id": "633490865a5baa25e6ab23e1",
       "picture": "https://i.ytimg.com/vi/fgT6r4f9Apc/maxresdefault.jpg",
       "name": "Firebase",
+      "price": "$30",
       "description": "In this 2-hour long project-based course, you will gain hands-on experience with one of the hottest web and mobile development backend services, Google Firebase. If you have some experience with HTML, CSS, and  JavaScript and want to start developing multi-platform applications, this course is for you!By the end of this course, you will understand the fundamental of Google Firebase and be able to create and build a Firebase Web application with ease.\r\n",
       "lessons" : ["User interface orientation and finished product preview","Firebase Overview","Setup the project, app, and database on Google","Retrieve data: populate the issue list with event","Update data: implement marking an issue as resolved"]
     }
