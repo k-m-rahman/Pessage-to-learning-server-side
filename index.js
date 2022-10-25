@@ -10,8 +10,17 @@ app.get("/", (req, res) => {
   res.send("passage to learning server is running");
 });
 
+// sending all the courses info
 app.get("/courses", (req, res) => {
   res.send(courses);
+});
+
+// sending individual course info separately
+
+app.get("/courses/:id", (req, res) => {
+  const id = req.params.id;
+  const course = courses.find((c) => c._id == id);
+  res.send(course);
 });
 
 app.listen(port, () => {
