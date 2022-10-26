@@ -1,0 +1,25 @@
+[
+    
+    {
+      "_id": "1",
+      "picture": "https://media-exp1.licdn.com/dms/image/C5603AQGeZy5GF8Vc3w/profile-displayphoto-shrink_800_800/0/1659983210938?e=1672272000&v=beta&t=3VPQ8bZLRtR96PVXa7O0gMZvRNSwgSOzFpZQA8fk5yE",
+      "name": "Sourabh Rahman"
+      
+    },
+    {
+      "_id": "2",
+      "picture": "https://jeprades.github.io/michael-scott-tribute/images/michael-scott-header.png",
+      "name": "Michael Scott"
+    },
+    {
+      "_id": "3",
+      "picture": "https://uploads-ssl.webflow.com/5fa452663d18a6699f11aa07/62b46638bedf9aabc6b3c121_Walter%20white-p-500.jpeg",
+      "name": "Walter White"
+    },
+    {
+      "_id": "4",
+      "picture": "https://imgix.bustle.com/uploads/getty/2021/5/27/45695de5-dc49-4007-ad4a-d9b9ab46e85c-getty-908303.jpg?w=414&h=508&fit=crop&crop=faces&auto=format%2Ccompress",
+      "name": "Chandler Bing"
+    }
+    
+  ]
