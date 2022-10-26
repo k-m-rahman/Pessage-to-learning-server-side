@@ -4,6 +4,7 @@ const cors = require("cors");
 const port = process.env.PORT || 5000;
 const courses = require("./data/courses.json");
 const instructors = require("./data/instructors.json");
+const blogs = require("./data/blogs.json");
 
 app.use(cors());
 
@@ -26,6 +27,10 @@ app.get("/courses/:id", (req, res) => {
 
 app.get("/instructors", (req, res) => {
   res.send(instructors);
+});
+
+app.get("/blogs", (req, res) => {
+  res.send(blogs);
 });
 
 app.listen(port, () => {

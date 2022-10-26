@@ -1,0 +1,28 @@
+[
+    {
+      "_id": "1",
+      "picture": "https://cdn.pellerex.com/public/ecosystem/web/content/api-cors/pellerex-asp-net-5-web-api-cors.png",
+      "title": "What is cors?",
+      "description": "Cross-Origin Resource Sharing (CORS) is an HTTP-based security mechanism controlled and enforced by the client (web browser). It allows a service (API) to indicate any origin other than its own from which the client can request resources. It has been designed in response to the same-origin policy (SOP) that restricts how a website (HTML document or JS script) loaded by one origin can interact with a resource from another origin. CORS is used to explicitly allow some cross-origin requests while rejecting others.CORS is implemented primarily in web browsers, but it can also be used in API clients as an option. It's present in all popular web browsers like Google Chrome, Firefox, Opera, and Safari. The standard has been accepted as a W3C Recommendation in January 2014. Based on that, we can assume that it is implemented in all currently available and other than listed web browsers."
+      
+    },
+    {
+      "_id": "2",
+      "picture": "https://firebase.google.com/images/social.png",
+      "title": "Why should we use firebase? What other options do we have to implement authentication?",
+      "description": "Google Firebase offers many features that pitch it as the go-to backend development tool for web and mobile apps. It reduces development workload and time. And it's a perfect prototyping tool. Firebase is simple, lightweight, friendly, and industrially recognized.Firebase concept is simple. When you build a client-side app with JavaScript or any of its frameworks, for instance, Google Firebase can turn this into a serverless app in no time. It also removes the need to manage databases yourself, as it does that for you.Therefore, implementing Firebase means plugging a ready-made backend into your client code to make it dynamic. Ultimately, it eliminates the need to write backend code from scratch and gives you a fully functional one instead.However, if you need a different authentication solution, here are some alternatives: Auth0 – Excellent for enabling secure, single sign-on, MongoDB – Stores data in JSON-like documents, Passport – Authentication for Node.js. It's best for express-based web documents etc."
+    },
+    {
+      "_id": "3",
+      "picture": "https://i.ibb.co/MGcDjc9/6329be0175bf4fa87f03a7b9-Protected-Routes-and-Authentication-How-to-create-Protected-Routes-in-React.jpg",
+      "title": "How does the private route work?",
+      "description": "The private route component is similar to the public route, the only change is that redirect URL and authenticate condition. If the user is not authenticated he will be redirected to the login page and the user can only access the authenticated routes if he is authenticated (Logged in). However, private routes also known as protected routes also need authorization most of the time. Authorization goes beyond authentication though. For example, a user can also have roles and permissions which give a user access to specific areas of the application."
+    },
+    {
+      "_id": "4",
+      "picture": "https://wallpaperaccess.com/full/1567531.png",
+      "title": "What is Node? How does Node work?",
+      "description": "Node.js is an open-source backend javascript runtime environment. It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node.js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive. Working of Node.js: Node.js accepts the request from the clients and sends the response, while working with the request node.js handles them with a single thread. To operate I/O operations or requests node.js use the concept of threads. Thread is a sequence of instructions that the server needs to perform. It runs parallel on the server to provide the information to multiple clients. Node.js is an event loop single-threaded language. It can handle concurrent requests with a single thread without blocking it for one request."
+    }
+    
+  ]
