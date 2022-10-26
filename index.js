@@ -33,6 +33,12 @@ app.get("/blogs", (req, res) => {
   res.send(blogs);
 });
 
+app.get("/blogs/:id", (req, res) => {
+  const id = req.params.id;
+  const blog = blogs.find((b) => b._id == id);
+  res.send(blog);
+});
+
 app.listen(port, () => {
   console.log(`passage to learning server is running on port : ${port}`);
 });
