@@ -43,7 +43,7 @@ app.get("/blogs/:id", (req, res) => {
   if (blog) {
     res.send(blog);
   } else {
-    res.send("No data found");
+    res.send(null);
   }
 });
 
