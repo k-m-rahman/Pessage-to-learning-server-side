@@ -22,7 +22,11 @@ app.get("/courses", (req, res) => {
 app.get("/courses/:id", (req, res) => {
   const id = req.params.id;
   const course = courses.find((c) => c._id == id);
-  res.send(course);
+  if (course) {
+    res.send(course);
+  } else {
+    res.send("No data found");
+  }
 });
 
 app.get("/instructors", (req, res) => {
@@ -36,7 +40,11 @@ app.get("/blogs", (req, res) => {
 app.get("/blogs/:id", (req, res) => {
   const id = req.params.id;
   const blog = blogs.find((b) => b._id == id);
-  res.send(blog);
+  if (blog) {
+    res.send(blog);
+  } else {
+    res.send("No data found");
+  }
 });
 
 app.listen(port, () => {
